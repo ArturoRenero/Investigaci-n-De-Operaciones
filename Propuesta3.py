@@ -25,6 +25,16 @@ fx = 2*x1*x2 + 2*x2 - x1**2 - 2*x2**2
 dp1 = sp.diff(fx, x1)#Derivada Parcial respecto a x1, se usa la funcion de esta libreria, le pasamos dos parametros, la funcion y la variable respecto a la cual va aderivar
 dp2 = sp.diff(fx, x2)
 #-----------------------------------------------------------
+
+# _______________________________________ Cambios por Arturo _______________________________________
+#==========================================================================================================================
+
+
+
+
+
+#==========================================================================================================================
+
 #------------------------------------------------------------Aqui debe empezar el ciclo------------------------------------
 resu = 0 #variable donde se almacena el resultado de la sustitucion
 #Se puede modificar la condicion de paro, pdependiendo de la modificacion, saldran mas valores o menos....
